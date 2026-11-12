@@ -1,0 +1,169 @@
+    h1 {
+        color: rgb(249, 253, 249);
+        font-style: oblique;
+        font-weight: bold;
+    }
+
+
+    .cover {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    header {
+        background: url(../images/cover.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 150px;
+    }
+
+    main {
+        background-color:rgba(233, 152, 179, 0.75);
+        padding: 1em 1.5em; 
+        font-style: italic;
+    }
+  
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid rgb(234, 117, 14);
+        border-style: outset;    
+    }
+   
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        list-style: none;
+    }
+
+    li {
+        padding: 0.5em;
+    }
+    
+    a {
+        color: rgb(29, 148, 23);
+        text-decoration: none;
+    }
+
+
+     body {
+           font-family: Georgia, 'Times New Roman', serif;
+           background-color: rgb(222, 228, 209);
+     }
+
+.books {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    text-align: center;
+}
+
+img {
+    width: 250px;
+}
+
+.costumes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+}
+
+.labeltext {
+    width: 100%;
+}
+
+.textfield input {
+    width: 90%;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+textarea{
+    width: 90%;
+    height: 5em;
+    font-size: 2em;
+}
+
+.btn {
+    background-color: rgb(221, 219, 204);
+    color: rgb(218, 21, 57);
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+/*label {
+    color: #2e5c70;
+}*/
+
+
+a:link {
+    color: palevioletred; 
+   }
+
+   a:visited {
+    color: #2dd83c;
+   }
+
+   a:focus {
+    color: #c642aa;
+   }
+
+   a:hover {
+    color: #4888d2;
+   }
+
+   a:active {
+    color: #ab8411;
+   }
+
+footer {
+    display: flex;
+    justify-content: center;  
+}
+
+p::first-letter {
+    color: rgb(218, 19, 25);
+    font-style: inherit;
+    font-size: x-large;
+}
+
+
+h1::after {                      
+    content: "💥";
+    margin-left: 0.3em;
+}
+
+#Introduction::after {
+    content: url(../images/comic.gif);
+    margin-left: 0.25em;
+}
+
+@media (max-width: 31.25em) {
+    .column {
+       flex: 100%;
+    }
+}
+
+@media (min-width: 31.25em) and (max-width: 62.5em) {
+    .column {
+       flex: 50%;
+    }
+}
+
+@media (min-width: 62.5em) {
+    .column {
+       flex: 33.33%;
+    }
+}
+
+
+
